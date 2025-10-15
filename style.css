@@ -5,6 +5,11 @@ table {
     margin: auto;
     margin-top: 50px;
     border-collapse: collapse;
+    background-color: rgb(255, 152, 255);
+    box-shadow: 10px 10px 15px red;
+}
+body {
+    background-color: rgb(255, 221, 0);
 }
 table th, table td {
     border: 1px solid #dee2e6;
@@ -26,15 +31,15 @@ table td i:hover{
     opacity: 0.7;
 }
 
-table td i :nth-child(1){
+table td i:nth-child(1){
     color: #17a2b8;
 }
 
-table td i :nth-child(2){
+table td i:nth-child(2){
     color: #28a745;
 }
 
-table td i :nth-child(3){
+table td i:nth-child(3){
     color: #dc3545;
 }
 
